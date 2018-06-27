@@ -1,0 +1,429 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+@font-face {
+    font-family: "prida01regular";
+    src: url("../font/prida01-webfont.eot");
+    src: url("../font/prida01-webfont.eot?#iefix") format (embedded-opentype),
+         url("../font/prida01-webfont.woff2") format(woff2),
+         url("../font/prida01-webfont.woff") format (woff),
+         url("../font/prida01-webfont.ttf") format(truetype),
+         url("../font/prida01-webfont.svg#prida01regular") format(svg);
+    font-weight: normal;
+    font-style: normal;
+    
+}
+
+figcaption {
+	font-size: 0.85;
+	padding: 0.25em;
+	text-align: center;
+}
+
+img, video {
+max-width: 100%;
+}
+	
+
+body {
+    background: #144770; # se quiser url(../img/fundo.png)
+    color:#FFF; 
+    font-family: "prida01regular", Helvetica;
+	font-size: 1em;
+	
+}
+h1 {
+	color:#dd4814;
+	margin:0.25em auto;
+	text-align:center;
+	text-shadow: ;  
+
+}
+
+header, nav, footer{
+	background: #144770;
+	border-radius: 0.5em;
+	margin:0.5em auto;
+	max-width: 1270px;
+	padding:0.25em;
+	text-align: center;
+	
+}
+nav ul {
+	list-style: none;
+}
+
+nav li {
+	display:inline-block;
+	padding:0.1em;
+	vertical-align: top;
+}
+nav a {
+	background: #144770;
+	border: 0.1em solid #dd4814;
+	border-radius: 0.25em;
+	color: #ffffff;
+	display: block;
+	padding: 0.2em;
+	transition: all 0.5s ease-in;
+	-ms-transition: all 0.5s ease-in;
+	-moz-transition: all 0.5s ease-in;
+	-o-transition: all 0.5s ease-in;
+	-webkit-transition: all 0.5s ease-in;
+}	
+
+nav a:hover {
+	background: #dd4814;
+	border: 0.1em dashed #F60;
+	border-radius: 0 0.5em 0 0.5em;
+	color: #cccc99;
+}
+
+
+
+
+section#contentor {
+	background: #dd4814;
+	border-radius: 0.5em;
+	margin:0.5em auto;
+	max-width: 1270px;
+	padding:0;
+	text-align:center;
+	
+	
+}
+
+section#principal, aside {
+    background: #144770;
+	border-radius: 0.5em;
+	display: inline-block;
+	margin: 0.25em auto;
+	max-width: 600px;
+	min-height: 500px;
+	padding: 0.25em;
+	text-align: justify;
+	vertical-align : top;
+	width:65%;
+	
+	
+}
+
+aside a:link    {color:#cccc99; background-color:transparent; text-decoration:none
+}
+
+aside a:visited  {color:#cccc99; background-color:transparent; text-decoration:none
+}
+aside a:hover   {color:#212121; background-color:transparent; text-decoration:underline
+}
+aside a:active  {color:#212121; background-color:transparent; text-decoration:underline
+}
+
+aside a {
+	background: #cccc99;
+	border: 0.1em solid #7E8F7C;
+	border-radius: 0.25em;
+	color: #151515;
+	display: block;
+	padding: 0.2em;
+	transition: all 0.5s ease-in;
+	-ms-transition: all 0.5s ease-in;
+	-moz-transition: all 0.5s ease-in;
+	-o-transition: all 0.5s ease-in;
+	-webkit-transition: all 0.5s ease-in;
+}	
+
+aside a:hover {
+	background: #dd4814;
+	border: 0.1em dashed #F60;
+	border-radius: 0 0.5em 0 0.5em;
+	color: #cccc99;
+}
+
+
+article {
+	 background: #144770;
+	border-radius : 0.5em;
+	min-height : 450px;
+	padding: 0.25em;
+}
+
+section#principal a:link    {color:#cccc99; background-color:transparent; text-decoration:none
+}
+
+section#principal a:visited  {color:#cccc99; background-color:transparent; text-decoration:none
+}
+section#principal  a:hover   {color:#212121; background-color:transparent; text-decoration:underline
+}
+section#principal a:active  {color:#212121; background-color:transparent; text-decoration:underline
+}
+
+section#principal  a {
+	background: #cccc99;
+	border: 0.1em solid #7E8F7C;
+	border-radius: 0.25em;
+	color: #151515;
+	display: block;
+	padding: 0.2em;
+	transition: all 0.5s ease-in;
+	-ms-transition: all 0.5s ease-in;
+	-moz-transition: all 0.5s ease-in;
+	-o-transition: all 0.5s ease-in;
+	-webkit-transition: all 0.5s ease-in;
+}	
+
+section#principal a:hover {
+	background: #dd4814;
+	border: 0.1em dashed #F60;
+	border-radius: 0 0.5em 0 0.5em;
+	color: #cccc99;
+}
+
+
+.videocontainer {
+	position:relative;
+	padding-bottom:56.25%;
+	padding-top:30px;
+	height:0;
+	overflow:hidden;
+        background: transparent  ;
+}
+
+.videocontainer iframe, .video-container object, .video-container embed {
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+        background: transparent  ;
+}
+
+/* aqui começa estilo slide */
+
+@webkit-keyframes slidy {
+0%  {left: 0%; }
+20% { left: 0%; }
+25% { left: -100%; }
+45% { left: -100%; }
+50% { left: -200%; }
+70% { left: -200%; }
+75% { left: -300%; }
+95% { left: -300%; }
+100% { left: -400%; }
+}
+
+
+}
+
+body { margin: 0; } 
+div#slider { overflow: hidden; }
+div#slider figure img { width: 20%; float: left; }
+div#slider figure { 
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  text-align: left;
+  font-size: 0;
+  animation: 30s slidy infinite; 
+}
+
+/* aqui acaba estilo slide*/
+
+
+
+
+
+
+
+
+aside img {
+	 border-radius : 0.5em;
+    margin: 0px 10pxprestidigitate-align: justify;
+	
+}
+
+text {
+color:#ffffff;
+
+}
+
+
+
+
+#p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+footer {
+   background: #144770;
+	color: #FFF;
+	font-size: 0.85em;
+	min-height: 30px;
+	padding: 0.75em 0;
+}
+
+.fade{
+	transition: all 0.5s ease-in;
+	-ms-transition: all 0.5s ease-in;
+	-moz-transition: all 0.5s ease-in;
+	-o-transition: all 0.5s ease-in;
+	-webkit-transition: all 0.5s ease-in;
+	opacity:1;
+	filter:alpha(opacity=10);
+}
+.fade:hover{
+	transition: all 0.5s ease-in;
+	-ms-transition: all 0.5s ease-in;
+	-moz-transition: all 0.5s ease-in;
+	-o-transition: all 0.5s ease-in;
+	-webkit-transition: all 0.5s ease-in;
+	opacity:0.7;
+	filter:alpha(opacity=7);
+
+}
+
+
+@media (min-width:1280px) {
+	header h1 {
+		text-align:center;
+		width:35%;
+	}
+	
+	nav {
+		text-align: center;
+		width: 99%;
+		}
+}
+@media (min-width:800px) {
+    nav li {
+		font-size: 0.95em;
+		
+	}
+	
+	
+}
+
+
+
+
+/*
+Slyder style inicio */
+#slider-arrows {
+    margin:  auto 0 auto;
+    width: 20%;
+}
+
+#slider-box {
+    height: 100%;
+    width: 300%;
+}
+
+#slider-container {
+    height: 20%;
+    margin: 0 auto;
+    overflow: hidden;
+    text-align: left;
+    width: 100%;
+}
+
+.element-blue,
+.element-green,
+.element-red {
+    min-height: 300px;
+    max-height: 100%;
+    width: 100%;
+}
+
+.element-blue {
+    background: transparent  ;
+}
+
+.element-green {
+    background: transparent   ;
+}
+
+.element-red {
+    background: transparent  ;
+}
+
+.slider-element {
+    float: left;
+    width: 33.333%;
+}
+
+#element1:checked ~ #slider-arrows label:nth-child(2),
+#element2:checked ~ #slider-arrows label:nth-child(3),
+#element3:checked ~ #slider-arrows label:nth-child(1) {
+    display: none;
+    float: right;
+}
+
+#element1:checked ~ #slider-arrows label:nth-child(3),
+#element2:checked ~ #slider-arrows label:nth-child(1),
+#element3:checked ~ #slider-arrows label:nth-child(2) {
+    display: none;
+    float: left;
+}
+
+#element1:checked ~ #slider-arrows label:nth-child(2):before,
+#element2:checked ~ #slider-arrows label:nth-child(3):before,
+#element3:checked ~ #slider-arrows label:nth-child(1):before {
+    color: black  ;
+    content: "\f054";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: antialiased;
+}
+
+#element1:checked ~ #slider-arrows label:nth-child(3):before,
+#element2:checked ~ #slider-arrows label:nth-child(1):before,
+#element3:checked ~ #slider-arrows label:nth-child(2):before {
+    color: black  ;
+    content: "\f053";
+    font-family:FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: antialiased;
+}
+
+#element1:checked ~ #slider-container #slider-box {
+    margin-left: 0;
+}
+
+#element2:checked ~ #slider-container #slider-box {
+    margin-left: -100%;
+}
+
+#element3:checked ~ #slider-container #slider-box {
+    margin-left: -200%;
+}
+
+#slider-arrows label {
+    color: transparent;
+    cursor: pointer;
+    display: none;
+    font-size: 2em;
+    height: 20px;
+    width: 20px;
+}
+
+#slider-box {
+    -webkit-transition: all 0.75s ease;
+    -moz-transition: all 0.75s ease;
+    -ms-transition: all 0.75s ease;
+    -o-transition: all 0.75s ease;
+    transition: all 0.75s ease;
+}
+
+ /*fim de slider style*/
+
